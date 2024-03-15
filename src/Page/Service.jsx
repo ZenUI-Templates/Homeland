@@ -111,7 +111,7 @@ const Service = () => {
   }
     
   return (
-   <div className='bg-[#FFE5DD] py-10 px-10 lg:px-16'>
+   <div className='bg-[#FFE5DD] py-10 px-10 lg:px-16' id='service'>
      <div className='container mx-auto  '>
     <h2 className='text-4xl pb-5 font-bold flex flex-col items-center'> Our Services</h2>
     <Slider {...sliderSettings}>

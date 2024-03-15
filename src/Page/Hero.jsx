@@ -24,10 +24,10 @@ const Hero = () => {
             The Real state is where you can find a dream home of <br /> your
             choice without stress
           </p>
-          <button className="bg-[#FF7043] my-5 text-white py-3 px-5 rounded-lg font-bold hover:bg-blue-700 hover:text-black">
+          <button className="bg-[#FF7043] my-5 text-white py-3 px-5 rounded-lg font-bold hover:bg-blue-700 hover:text-white">
             Explore More{" "}
           </button>
-          <div className="flex flex-row py-5 justify-evenly items-center">
+          <div className="flex flex-row py-5 justify-evenly items-center gap-8">
             <div className="px-4">
               <img src="https://i.ibb.co/yF94yW2/Group.png" alt="" />
               <p>Excellent 20,000+ reviews</p>

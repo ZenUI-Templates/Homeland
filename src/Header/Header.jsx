@@ -5,8 +5,8 @@ import {  IoReorderThreeSharp } from "react-icons/io5";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="container mx-auto  mt-10 lg:my-10  text-black">
-      <div className=" px-2 pt-2   hidden lg:flex font-[Inter] lg:flex-row  lg:justify-evenly max-w-full">
+    <div className="container mx-auto  mt-10 lg:my-10  text-black px-2">
+      <div className=" px-2 pt-2   hidden lg:flex font-[Inter] lg:flex-row  lg:justify-between max-w-full">
         <div className="p-2 flex flex-row  text-2xl  uppercase font-bold">
           <img src="https://i.ibb.co/Z1rY1zd/Frame-102.png" alt="" /> Homeland
         </div>
@@ -15,10 +15,10 @@ const Header = () => {
             <a className="p-2 hover:text-sky-600" href="#home">
               Home
             </a>
-            <a className="p-2 hover:text-sky-600" href="#About">
+            <a className="p-2 hover:text-sky-600" href="#service">
               Listing
             </a>
-            <a className="p-2 hover:text-sky-600" href="#Service">
+            <a className="p-2 hover:text-sky-600" href="#residence">
               Residence
             </a>
 
@@ -35,7 +35,7 @@ const Header = () => {
           
         </div>
         <div className="">
-            <button className="bg-[#FF7043]  text-white py-3 px-5 rounded-lg font-bold hover:bg-blue-700 hover:text-black"> SignIn</button>
+            <button className="bg-[#FF7043]  text-white py-3 px-5 rounded-lg font-bold hover:bg-blue-700 hover:text-white"> SignIn</button>
             </div>
       </div>
       <div className="lg:hidden flex flex-row justify-between ">
@@ -76,10 +76,10 @@ const Header = () => {
                  <a className="p-2 hover:text-sky-600" href="#home">
               Home
             </a>
-            <a className="p-2 hover:text-sky-600" href="#About">
+            <a className="p-2 hover:text-sky-600" href="#service">
               Listing
             </a>
-            <a className="p-2 hover:text-sky-600" href="#Service">
+            <a className="p-2 hover:text-sky-600" href="#residence">
               Residence
             </a>
 

@@ -10,7 +10,7 @@ const FindBestRealEstate = () => {
           for more than 20 years. We have helped countless people find their
           dream home.
         </p>
-        <button className="bg-[#FF7043] text-white py-3 px-5 rounded-lg font-bold hover:bg-blue-700 hover:text-black w-2/3 lg:w-1/3">
+        <button className="bg-[#FF7043] text-white py-3 px-5 rounded-lg font-bold hover:bg-blue-700 hover:text-white w-2/3 lg:w-1/3">
           Contact us
         </button>
       </div>

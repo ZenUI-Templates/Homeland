@@ -33,10 +33,10 @@ const Residences = () => {
   ];
   return (
     <div>
-      <div className="flex flex-row justify-evenly items-center gap-5 mt-10">
+      <div className="flex flex-row justify-evenly items-center gap-5 mt-10" id='residence'>
       <p>{" "}</p>
         <p className="text-3xl font-bold">Our Best Residences</p>
-        <button className="text-[#FF7043] my-5  pb-3 px-5 rounded-lg font-bold hover:bg-blue-700 hover:text-black flex justify-end">
+        <button className="text-[#FF7043] my-5  py-3 px-5 rounded-lg font-bold hover:bg-blue-700 hover:text-white flex justify-end">
                view All <FaArrowCircleRight className="text-2xl mx-3"/>
               </button>
       </div>
@@ -63,7 +63,7 @@ const Residences = () => {
             </div>
             <div className="flex flex-row justify-between">
               <p className="text-3xl font-semibold flex items-center">{card.price}</p>
-              <button className="bg-[#FF7043] my-5 text-white py-3 px-5 rounded-lg font-bold hover:bg-blue-700 hover:text-black">
+              <button className="bg-[#FF7043] my-5 text-white py-3 px-5 rounded-lg font-bold hover:bg-blue-700 hover:text-white">
                 Buy Now{" "}
               </button>
             </div>
